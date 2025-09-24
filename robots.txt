@@ -1,0 +1,18 @@
+# robots.txt for The Diplomats and Eminence Limited
+# Allow crawling of the site while protecting noisy endpoints
+
+User-agent: *
+Allow: /
+
+# Disallow admin or temporary paths if added later
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Crawl-delay (optional; most bots ignore). Uncomment if needed.
+# Crawl-delay: 5
+
+# Point Google and other bots to your sitemap once deployed
+Sitemap: https://www.thediplomats.ng/sitemap.xml
+
+
