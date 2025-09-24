@@ -64,10 +64,13 @@
 
         .logo {
             font-size: 1.8rem;
-            font-weight: 700;
+            text-align: center;
+            font-weight: 600;
             color: white;
             text-decoration: none;
             transition: color 0.3s ease;
+            display: block; /* Ensures margin: auto works */
+            margin: 0 auto; /* Centers horizontally */
         }
 
         .navbar.scrolled .logo {
